@@ -16,8 +16,6 @@ create table business (
     distance float
 );
 
-drop table business;
-
 create table coordinates (
 	id bigint auto_increment unique not null primary key,
     latitude float,
